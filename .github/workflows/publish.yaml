@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        npm install
-        npm run lint
+          npm install
+          npm run lint
       - uses: actions/checkout@v2
       - uses: JS-DevTools/npm-publish@v1
         with:
